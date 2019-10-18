@@ -36,15 +36,31 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ## [Unreleased]
 
+### Features
+
+* (gaiad) [\#119](https://github.com/cosmos/gaia/pull/119) Add support for the `--inter-block-cache` CLI
+flag and configuration.
+* (gaiacli) [\#132](https://github.com/cosmos/gaia/pull/132) Add `tx decode` command to decode
+Base64 encoded transactions.
+
+## [v2.0.2] - 2019-10-12
+
+### Improvements
+
+* (sdk) Bump SDK version to [v0.37.3](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.37.3).
+* (tendermint) Bump Tendermint version to [v0.32.6](https://github.com/tendermint/tendermint/releases/tag/v0.32.6).
+
+## [v2.0.1] - 2019-09-20
+
+### Features
+
+* (gaiad) [\#119](https://github.com/cosmos/gaia/pull/119) Add support for the `--halt-time` CLI flag and configuration.
+
 ### Improvements
 
 * [\#119](https://github.com/cosmos/gaia/pull/119) Refactor and upgrade Circle CI
 configuration.
-
-### Features
-
-* (gaiad) [\#119](https://github.com/cosmos/gaia/pull/119) Add support for the `--halt-time` and
-`--inter-block-cache` CLI flags and configuration.
+* (sdk) Update SDK version to v0.37.1
 
 ## [v2.0.0] - 2019-08-22
 
@@ -114,6 +130,8 @@ not rely on the `x/supply` keeper to get module account addresses for blacklisti
 
 <!-- Release links -->
 
-[Unreleased]: https://github.com/cosmos/gaia/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/cosmos/gaia/compare/v2.0.2...HEAD
+[v2.0.2]: https://github.com/cosmos/gaia/releases/tag/v2.0.2
+[v2.0.1]: https://github.com/cosmos/gaia/releases/tag/v2.0.1
 [v2.0.0]: https://github.com/cosmos/gaia/releases/tag/v2.0.0
 [v1.0.0]: https://github.com/cosmos/gaia/releases/tag/v1.0.0
