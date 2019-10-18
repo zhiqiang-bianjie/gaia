@@ -324,7 +324,7 @@ jobs:
           command: |
             sudo apt-get install -y ruby
             bash -x ./contrib/gitian-build.sh all
-            for os in darwin linux windows; do
+            for os in linux; do
               cp gitian-build-${os}/result/gaia-${os}-res.yml .
               rm -rf gitian-build-${os}/
             done
